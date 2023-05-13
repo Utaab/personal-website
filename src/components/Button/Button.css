@@ -1,0 +1,34 @@
+.ButtonComponent .btn{
+    border-width: 2px;
+    border-color:var(--color-black);
+    border-radius:var(--border-radius-50) ;
+    padding: var(--padding-btn);
+    text-decoration: none;
+    color: var(--color-black);
+}
+.ButtonComponent .btn:hover,
+.ButtonComponent .btn:active{
+   background: var(--color-black);
+   color: var(--color-white);
+}
+.ButtonComponent .btn.btn-primary{
+    border-color:var(--color-primary);
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+.ButtonComponent .btn.btn-primary:hover,
+.ButtonComponent .btn.btn-primary:active{
+    border-color:var(--color-primary);
+    background: transparent;
+    color: var(--color-primary);
+}
+.ButtonComponent .btn.btn-secondary{
+    background: transparent;
+    color: var(--color-black);
+}
+.ButtonComponent .btn.btn-secondary:hover,
+.ButtonComponent .btn.btn-secondary:active{
+    border-color:var(--color-primary);
+    background: var(--color-primary);
+    color: var(--color-white);
+}

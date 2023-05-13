@@ -1,0 +1,61 @@
+:root{
+    --color-primary: #fa4529;
+    --color-primary-hover: #e03d24;
+    --color-black:#292929;
+    --color-white:#fff;
+    --color-dark-gray: #666;
+    --color-gray: #d3d2d2;
+    --color-light-gray:#f7f7f7;
+    --color-body:#e6dace;
+    --color-shadow:#c9af96;
+    --color-border-success: #BADBCA;
+    --color-bg-success:#d1e7dd;
+    --color-font-success:#0f5132;
+    --color-border-warning: #f5c2c7;
+    --color-bg-warning:#f8d7da;
+    --color-font-warning:#842029;
+    --color-border-info: #b6effb;
+    --color-bg-info:#cff4fc ;
+    --color-font-info:#055160;
+    --color-font-default: #41464b;
+    --color-bg-default: #e2e3e5;
+    --color-border-default: #d3d6d8;
+
+
+    --font-size-large: 24px;
+    --font-size-mediume: 20px;
+    --font-size-body:16px;
+    --font-size-small: 12px;
+
+    --font-weight-bolder: 900;
+    --font-weight-bold:700;
+    --font-weight-normal:400;
+
+    --border-radius-3: 3px;
+    --border-radius-8: 8px;
+    --border-radius-50: 50px;
+
+    --padding-btn: .5rem 2rem;
+    
+    --defualt-transition: .3s all ease-in-out
+}
+html{
+    font-size: var(--font-size-body);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: var(--font-size-large);
+}
+h2,h3{
+    font-size: var(--font-size-mediume);
+}
+h4,h5{
+    font-size: var(--font-size-body);
+}
+input, textarea{
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius-8);
+}

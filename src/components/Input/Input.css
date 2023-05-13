@@ -1,0 +1,13 @@
+.inputComponent {
+    display: flex;
+    flex-direction: column;
+    padding-right:15px;
+}
+.inputComponent label{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-mediume);
+    
+}
+.inputComponent input{
+
+}

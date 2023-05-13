@@ -1,0 +1,48 @@
+.header {
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 16px;
+    background: linear-gradient(180deg, var(--color-light-gray), transparent);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-nav a {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: var(--font-size-mediume);
+    position: relative;
+}
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    font-family: fantasy;
+}
+.navbar-brand span{
+    font-size: 16px;
+}
+.squer{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-3);
+    margin-right: 0.5rem;
+}
+
+
+.navbar-collapse{
+    flex-grow: unset;
+}

@@ -1,0 +1,11 @@
+.ContactInfo {
+    margin: 3rem 0;
+}
+.ContactInfo .TitleInfo{
+    margin-bottom: .5rem;
+    font-size: var(--font-size-body);
+    color: var(--color-shadow);
+}
+.ContactInfo .DescriptionInfo{
+    font-size: var(--font-size-mediume);
+}
