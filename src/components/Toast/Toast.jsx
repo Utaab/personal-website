@@ -40,7 +40,7 @@ const Toast = ({children, title, variant, handleClose }) =>{
                     <div className="descriptionToast">{children}</div>
                 </div>
                 <div>
-                <Link onClick={handleClose}><FontAwesomeIcon icon={faXmark} /></Link>
+                    <Link onClick={handleClose}><FontAwesomeIcon icon={faXmark} /></Link>
                 </div>
             </div>
         );

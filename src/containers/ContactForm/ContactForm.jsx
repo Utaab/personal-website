@@ -14,7 +14,7 @@ const ContactForm = () =>{
 
     const handleClose = (event) =>{
         event.preventDefault();
-        console.log("click close")
+        setToast(false)
     };
     const handleSubmit = async (event) => {
         event.preventDefault();

@@ -11,7 +11,10 @@ const Footer = () =>{
         <Container>
             <div className='row'>
                 <div className='col-6 leftFooter'>
-                    <p>© 2023 by Atousa Kahnazi.</p>
+                    <div className='TitleInfo'>
+                        Personal Website
+                    </div>
+                    <div className="DescriptionInfo">© 2023 by Atousa Kahnazi.</div>
                 </div>
                 <div className='col-6 rightFooter'>
                     <ContactInfo title="Phone" place="footerPlace"><a href="tel:+989352148698">+98-935-214-8698</a></ContactInfo>
