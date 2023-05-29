@@ -14,11 +14,16 @@
     margin-right: 15px;
 }
 
-.footer .ContactInfo .TitleInfo{
+.footer .ContactInfo .TitleInfo,
+.footer .TitleInfo{
     color: var(--color-shadow);
     font-weight: var(--font-weight-bold);
 }
-.footer .ContactInfo .DescriptionInfo{
+.footer .TitleInfo{
+    margin-bottom: 0.5rem;
+}
+.footer .ContactInfo .DescriptionInfo,
+.footer .DescriptionInfo{
     font-size: var(--font-size-body);
 }
 .footer .ContactInfo .DescriptionInfo a {
