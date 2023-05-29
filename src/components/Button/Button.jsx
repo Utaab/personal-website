@@ -1,16 +1,17 @@
 import './Button.css';
-const Button = ({variant, type, id, disabled, children, handleClick }) =>{
+const Button = ({variant, type, id, disabled, children, handleClick, loading }) =>{
     if(variant === "primary"){
         return(
             <div className='ButtonComponent mb-5'>
                 <button
                     onClick={handleClick} 
-                    className="btn btn-primary"
+                    className={`btn btn-primary ${loading ? "btnLoading" : ""}`}
                     type={type}
                     id={id}
                     disabled={disabled}
                 >
-                    {children}
+                    {loading && <div className="loading">Loading ...</div>}
+                    {!loading && children}
                 </button>
             </div>
         );
@@ -20,12 +21,13 @@ const Button = ({variant, type, id, disabled, children, handleClick }) =>{
             <div className='ButtonComponent mb-5'>
                 <button
                     onClick={handleClick} 
-                    className="btn btn-secondary"
+                    className={`btn btn-secondary ${loading ? "btnLoading" : ""}`}
                     type={type}
                     id={id}
                     disabled={disabled}
                 >
-                    {children}
+                    {loading && <div className="loading">Loading ...</div>}
+                    {!loading && children}
                 </button>
             </div>
         );
@@ -34,12 +36,13 @@ const Button = ({variant, type, id, disabled, children, handleClick }) =>{
         <div className='ButtonComponent mb-5'>
             <button
                 onClick={handleClick} 
-                className="btn btn-link"
+                className={`btn btn-link ${loading ? "btnLoading" : ""}`}
                 type={type}
                 id={id}
                 disabled={disabled}
             >
-                {children}
+                {loading && <div className="loading">Loading ...</div>}
+                {!loading && children}
             </button>
         </div>
     );

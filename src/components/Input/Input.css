@@ -8,6 +8,9 @@
     font-size: var(--font-size-mediume);
     
 }
-.inputComponent input{
-
+.inputComponent .validationBoxError{
+    font-size: 13px;
+    color: red;
+    display: inline-block;
+    padding-top: .2rem;
 }
