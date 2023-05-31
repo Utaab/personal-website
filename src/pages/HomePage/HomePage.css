@@ -27,6 +27,38 @@
 .App-link {
   color: #61dafb;
 }
+.img-block {
+  border: 2px solid #e6dace;
+  margin: 5px auto;
+  padding: 25px;
+  position: relative;
+  border-radius: 300px;
+  width: 70%;
+  background:var(--color-white);
+}
+.inner-img-block{
+  background: #e6dace;
+  display: flex;
+  align-items: flex-end;
+  height: 550px;
+  border-radius: 300px;
+  overflow: hidden;
+}
+.bubble-img {
+  position: absolute;
+    right: -28%;
+    top: 50%;
+    transform: translateY(-4%);
+    z-index: -1;
+    width: 230px;
+}
+
+.wave-img {
+  position: absolute;
+  left: -10%;
+  top: 40%;
+    transform: translate(-10%, -40%);
+}
 
 @keyframes App-logo-spin {
   from {

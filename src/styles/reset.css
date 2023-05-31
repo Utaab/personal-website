@@ -53,5 +53,9 @@ button, input, textarea{
 	outline: none;
 	transition: var(--defualt-transition);
 }
+img{
+	max-width: 100%;
+	width: auto;
+}
 
 
