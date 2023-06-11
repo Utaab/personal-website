@@ -1,3 +1,6 @@
+.footer .container{
+    border-top: 1px solid var(--color-light-gray);
+}
 .footer .row {
     display: flex;
     align-items: center;
@@ -29,4 +32,7 @@
 .footer .ContactInfo .DescriptionInfo a {
     margin-left: 5px;
     margin-right: 5px;
+}
+.footer .ContactInfo{
+    margin: 1.5rem 0;
 }

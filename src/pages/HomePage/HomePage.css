@@ -59,7 +59,21 @@
   top: 40%;
     transform: translate(-10%, -40%);
 }
-
+.row.biography {
+  align-items: stretch;
+}
+.row.biography .ContactInfo .DescriptionInfo.large{
+  font-size: var(--font-size-Xlarge);
+}
+.row.biography .right-side,
+.row.biography .left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.biography_section{
+  padding-top: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

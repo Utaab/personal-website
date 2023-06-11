@@ -34,3 +34,9 @@ form .btn.btn-primary:active{
     background: transparent;
     color: var(--color-primary);
 }
+form .formGroup span.error{
+    color: var(--color-primary);
+    font-size: .8rem;
+    display: inline-block;
+    margin-top: .2rem;
+}
