@@ -4,6 +4,10 @@
 .ContactInfo .TitleInfo{
     margin-bottom: .5rem;
     font-size: var(--font-size-body);
+    color: var(--color-gray);
+}
+footer .ContactInfo .TitleInfo{
+
     color: var(--color-shadow);
 }
 .ContactInfo .DescriptionInfo{

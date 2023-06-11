@@ -1,6 +1,6 @@
 import './ContactInfo.css';
 
-const ContactInfo = ({place, title, children}) =>{
+const ContactInfo = ({place, title, children, size}) =>{
     if(place === "footerPlace"){
         return(
             <div className='ContactInfo'>
@@ -12,7 +12,7 @@ const ContactInfo = ({place, title, children}) =>{
     return(
         <div className='ContactInfo'>
             <div className='TitleInfo'>{title}</div>
-            <div className='DescriptionInfo'>{children}</div>
+            <div className={`DescriptionInfo ${size}`}>{children}</div>
         </div>
     );
 }
