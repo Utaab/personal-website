@@ -1,3 +1,35 @@
 .slick-slider .slick-arrow {
+    background: var(--color-primary);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+.slick-slider  .slick-prev{
+    left: -50px;
+}
+.slick-slider  .slick-next{
+    right: -50px;
+}
+.slick-slider  .slick-prev:hover, 
+.slick-slider  .slick-prev:focus, 
+.slick-slider  .slick-next:hover, 
+.slick-slider  .slick-next:focus{
+    background: var(--color-primary-hover);
+}
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before{
+    content:"";
+    width: 12px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.slick-slider .slick-prev:before{
+    background: url("../../../public/images/prev.svg") no-repeat 0 0;
     
+}
+.slick-slider .slick-next:before{
+    background: url("../../../public/images/next.svg") no-repeat 0 0;
 }

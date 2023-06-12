@@ -25,11 +25,13 @@
     font-size: var(--font-size-mediume);
     position: relative;
 }
+.navbar-brand strong{
+    font-weight: var(--font-weight-bolder);
+}
 .navbar-brand {
     display: flex;
     flex-direction: row;
     align-items: end;
-    font-family: fantasy;
 }
 .navbar-brand span{
     font-size: 16px;

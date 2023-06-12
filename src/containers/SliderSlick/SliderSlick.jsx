@@ -18,7 +18,7 @@ const SliderSlick = () => {
               swipeToSlide={true}
               focusOnSelect={true}
               infinite= {true}
-              dots= {true}
+              dots= {false}
               speed= {500}
               responsive = {[
                 
