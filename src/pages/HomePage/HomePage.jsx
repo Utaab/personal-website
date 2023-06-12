@@ -6,6 +6,7 @@ import Avatar from "../../components/Avatar/Avatar";
 import './HomePage.css';
 import ContactInfo from "../../components/ContactInfo/ContactInfo";
 import SliderSlick from "../../containers/SliderSlick/SliderSlick";
+import InfoBox from "../../components/InfoBox/InfoBox";
 
 function HomePage() {
   return (
@@ -46,7 +47,7 @@ function HomePage() {
                           </div>
                           <div className='col-lg-3 right-side'>
                             <ContactInfo title="Biography">
-                              <p>Work for money and<br/> coding for love! I’m Atousa,<br/> an Front_end Developer<br/> based in iran.</p>
+                              <p>Work for money and<br/> coding for love! I’m Atousa,<br/> a Front_end Developer<br/> based in iran.</p>
                             </ContactInfo>
                             <ContactInfo title="Years Of Experience" size="large">
                               12
@@ -66,7 +67,18 @@ function HomePage() {
                     <SliderSlick/>
                   </div>
                 </section>
+                <section className="skills_section">
+                  <Heading as="h2" direction="text-center">
+                    Education & Experience
+                  </Heading>
+                  <div className="row">
+                      <div className="col-lg-4">
+                        <div class="timeline_year">2014</div>
+                        <InfoBox title="Bachelore Degree Of Software Engineering">Tbarestan University</InfoBox>
 
+                      </div>
+                  </div>
+                </section>
             </Container>
         </div>
     </Layout>

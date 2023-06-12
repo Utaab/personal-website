@@ -21,7 +21,6 @@
     --color-bg-default: #e2e3e5;
     --color-border-default: #d3d6d8;
 
-
     --font-size-Xlarge: 50px;
     --font-size-large: 24px;
     --font-size-mediume: 20px;
@@ -42,6 +41,9 @@
 }
 html{
     font-size: var(--font-size-body);
+}
+body{
+    font-family: "Rubik";
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;

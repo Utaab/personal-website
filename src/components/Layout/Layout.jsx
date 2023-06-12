@@ -1,5 +1,6 @@
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import "../../fonts/Rubik/Rubik-Regular.ttf";
 
 import './Layout.css';
 

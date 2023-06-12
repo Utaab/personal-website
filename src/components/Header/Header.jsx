@@ -15,7 +15,7 @@ function BasicExample() {
           <Navbar expand="lg">
             <Navbar.Brand href="/">
               <div className='squer'></div>
-              Atousa Kahnazi/<span>Front-End Developer</span>
+              <strong>Atousa Kahnazi</strong>/<span>Front-End Developer</span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
