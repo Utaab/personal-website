@@ -1,10 +1,10 @@
 :root{
     --color-primary: #fa4529;
     --color-primary-hover: #e03d24;
-    --color-black:#292929;
+    --color-black:#000;
     --color-white:#fff;
     --color-dark-gray: #666;
-    --color-gray: #d3d2d2;
+    --color-gray: #959595;
     --color-light-gray:#f7f7f7;
     --color-body:#e6dace;
     --color-shadow:#c9af96;
@@ -27,9 +27,11 @@
     --font-size-body:16px;
     --font-size-small: 12px;
 
-    --font-weight-bolder: 900;
-    --font-weight-bold:700;
-    --font-weight-normal:400;
+    --font-weight-900: 900;
+    --font-weight-700:700;
+    --font-weight-500: 500;
+    --font-weight-400:400;
+
 
     --border-radius-3: 3px;
     --border-radius-8: 8px;
@@ -44,6 +46,8 @@ html{
 }
 body{
     font-family: "Rubik";
+    line-height: 27px;
+    color: var(--color-black);
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
@@ -63,6 +67,16 @@ input, textarea{
     border-radius: var(--border-radius-8);
 }
 section{
-    padding: 4rem 0;
+    padding: 4rem 0 7rem;
     border-bottom: 1px solid var(--color-light-gray);
+}
+section:last-child{
+    padding: 4rem 0 0;
+    border-bottom: 0;
+}
+.ContactPage{
+    background: #e6dace;
+}
+.ContactPage_with_half_bg{
+    position: relative;
 }

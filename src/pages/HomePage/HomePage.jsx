@@ -17,10 +17,10 @@ function HomePage() {
                   <Heading as="h1" direction="text-center">
                     Atousa Kahnazi<br/>
                     Front-End Developer<br/>
-                    Based in Tehran
+                    Based in Iran
                   </Heading>
-                  <div className='mt-5'>
-                      <div className='row biography'>
+                  <div className='biography'>
+                      <div className='row'>
                           <div className='col-lg-3 left-side'>
                             <ContactInfo title="Address">
                               <p>Ekbatan Complex, Tehran, Iran</p>
@@ -47,7 +47,7 @@ function HomePage() {
                           </div>
                           <div className='col-lg-3 right-side'>
                             <ContactInfo title="Biography">
-                              <p>Work for money and<br/> coding for love! I’m Atousa,<br/> a Front_end Developer<br/> based in iran.</p>
+                              <p>Work for money and<br/> coding for love! I’m Atousa,<br/> a Front-End Developer<br/> based in iran.</p>
                             </ContactInfo>
                             <ContactInfo title="Years Of Experience" size="large">
                               12
@@ -63,7 +63,7 @@ function HomePage() {
                   <Heading as="h2" direction="text-center">
                     My Skills
                   </Heading>
-                  <div className="">
+                  <div className="skills">
                     <SliderSlick/>
                   </div>
                 </section>
@@ -71,12 +71,27 @@ function HomePage() {
                   <Heading as="h2" direction="text-center">
                     Education & Experience
                   </Heading>
-                  <div className="row">
-                      <div className="col-lg-4">
-                        <div class="timeline_year">2014</div>
-                        <InfoBox title="Bachelore Degree Of Software Engineering">Tbarestan University</InfoBox>
-
-                      </div>
+                  <div className="education">
+                    <div className="row">
+                        <div className="col-lg-4">
+                          <div class="timeline_year">Educations</div>
+                          <InfoBox title="Bachelore Degree Of Software Engineering">Tabarestan University</InfoBox>
+                          <InfoBox title="Advance SEO Techniques">Websima Academy</InfoBox>
+                          <InfoBox title="React Development">Mapsa HR Bootcamp</InfoBox>
+                          <InfoBox title="UI/UX Design">Duxlab Academy</InfoBox>
+                        </div>
+                        <div className="col-lg-4">
+                          <div class="timeline_year">2012-2018</div>
+                          <InfoBox title="Researcher">Parsdata</InfoBox>
+                          <InfoBox title="UI Designer / Front-End Developer">Parsdata</InfoBox>
+                          <InfoBox title="UI Designer / Front-End Developer">Ehsan Web</InfoBox>
+                        </div>
+                        <div className="col-lg-4">
+                          <div class="timeline_year">2018-present</div>
+                          <InfoBox title="UI Designer / Front-End Developer">IranHOST</InfoBox>
+                          <InfoBox title="Front-End Developer">My Arman</InfoBox>
+                        </div>
+                    </div>
                   </div>
                 </section>
             </Container>

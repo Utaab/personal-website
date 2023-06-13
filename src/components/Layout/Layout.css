@@ -1,5 +1,24 @@
 
 @font-face {
+    font-family: "Chivo";
+    src: local("Chivo"),
+     url("../../fonts/Chivo/Chivo-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Chivo";
+    src: local("Chivo"),
+     url("../../fonts/Chivo/Chivo-Bold.ttf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Chivo";
+    src: local("Chivo"),
+     url("../../fonts/Chivo/Chivo-ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
     font-family: "Rubik";
     src: local("Rubik"),
      url("../../fonts/Rubik/Rubik-Regular.ttf") format("truetype");

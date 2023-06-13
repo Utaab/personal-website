@@ -49,6 +49,7 @@
     padding: 3rem 3rem;
     border-radius: 10rem;
     filter: grayscale(100);
+    -webkit-filter: grayscale(100);
     text-align: center;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -63,6 +64,7 @@
     -webkit-animation: ptf_bounce .9s ease-in-out forwards;
     animation: ptf_bounce .9s ease-in-out forwards;
     -webkit-filter: none;
+    filter: none;
 
 }
 
@@ -71,7 +73,13 @@
     width: 90px;
 }
 .slider_item .icon_box .level_icon{
-    margin-top: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-700);
+    color: var(--color-dark-gray);
+    font-family: "Chivo";
+    
 }
 .slider_item .title_icon {
     margin-top: 1.5rem;

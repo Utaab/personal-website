@@ -59,14 +59,19 @@
   top: 40%;
     transform: translate(-10%, -40%);
 }
-.row.biography {
+.biography ,
+.skills,
+.education{
+  margin-top: 7rem;
+}
+.biography {
   align-items: stretch;
 }
-.row.biography .ContactInfo .DescriptionInfo.large{
+.biography .ContactInfo .DescriptionInfo.large{
   font-size: var(--font-size-Xlarge);
 }
-.row.biography .right-side,
-.row.biography .left-side{
+.biography .right-side,
+.biography .left-side{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -74,6 +79,11 @@
 .biography_section{
   padding-top: 0;
 }
+.timeline_year{
+  color: var(--color-gray);
+  margin-bottom: 3rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
