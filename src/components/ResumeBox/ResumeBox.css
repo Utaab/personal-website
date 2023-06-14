@@ -1,0 +1,28 @@
+.resume_content{
+    width: 70%;
+    margin: 0 auto;
+}
+.ResumeBox .col-lg-4{
+    border-right: 1px solid var(--color-light-gray);
+    padding-right: 5rem;
+}
+.ResumeBox .col-lg-8{
+    padding-left: 3rem;
+}
+.ResumeBox .during_time{
+    font-weight: var(--font-weight-600);
+    color: var(--color-primary);
+    font-size: var(--font-size-mediume);
+    margin-bottom: 1rem;
+}
+.ResumeBox .position{
+    font-weight: var(--font-weight-500);
+    color: var(--color-black);
+    margin-bottom: .5rem;
+}
+.ResumeBox .company_name{
+    color: var(--color-gray);
+}
+.ResumeBox .disceription_job{
+
+}

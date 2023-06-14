@@ -4,6 +4,8 @@ import Heading from "../../components/Heading/Heading";
 import Layout from "../../components/Layout/Layout";
 import Container from 'react-bootstrap/Container';
 import Avatar from "../../components/Avatar/Avatar";
+import { HashLink } from 'react-router-hash-link';
+import ResumeBox from "../../components/ResumeBox/ResumeBox";
 
 function About() {
     return<div className="aboutPage">
@@ -36,6 +38,8 @@ function About() {
                                         The first project that I coded with React was this personal website for myself, in which I faced many challenges and I can say that all the incomprehensible points that I had learned from the Internet by self-learning were solved for me.
                                     </p>
                                 </div>
+                                <HashLink className="btn btn-primary" smooth to='#resumeSection'>Resume</HashLink>
+                                <HashLink className="btn btn-secondary" smooth to='#educationSection'>Education</HashLink>
                             </div>
                             <div className="col-lg-6">
                                 <div className="description-of-me">
@@ -51,6 +55,40 @@ function About() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </section>
+                </Container>
+            </div>
+            <div className="ContactPage pt-5 pb-5" id="resumeSection">
+                <Container>
+                    <Heading as="h2" direction="text-center">Resume</Heading>
+                    <div className="resume_content">
+                        <ResumeBox diuring="2021 - Present" position="Font-End Developer" company="MyARMAN">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        </ResumeBox>
+                        <ResumeBox diuring="2018 - 2021" position="Font-End Developer / SEO Specialist" company="IRANHOST">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        </ResumeBox>
+                        <ResumeBox diuring="2017 - 2018" position="Font-End Developer / UI Designer" company="PARSDATA">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        </ResumeBox>
+                        <ResumeBox diuring="2015 - 2018" position="Font-End Developer / UI/UX Designer" company="EHSANWEB">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        </ResumeBox>
+                        <ResumeBox diuring="2012 - 2015" position="Font-End Developer / UI Designer" company="PARSDATA">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        </ResumeBox>
+                    </div>
+                </Container>
+            </div>
+            <div id='educationSection'>
+                <Container>
+                    <section className="educationSection">
+                        <div className="row">
+                            <div className="col-lg-6 m-auto">
+                                <Heading as="h2" direction="text-center">Education</Heading>
+                                
                             </div>
                         </div>
                     </section>
