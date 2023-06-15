@@ -1,14 +1,16 @@
 .title-style{
     margin-bottom: 2rem;
-    font-weight: bold;
+    font-weight: var(--font-weight-500);
     position: relative;
 }
-.title-style span {
+.title-style span.squer {
     position: absolute;
     width: 60px;
     height: 5px;
     left: 0;
     bottom: -12px;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-3);
 }
 .title-style.text-center span{
     left: 50%;

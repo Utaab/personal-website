@@ -1,0 +1,17 @@
+.aboutme .title_style{
+    font-size: var(--font-size-Xlarg);
+}
+.aboutme .position_title{
+    color: var(--color-gray);
+    font-size: var(--font-size-mediume);
+    margin-bottom: 3rem;
+}
+.aboutme .description-of-me {
+    margin-bottom: 2rem;
+}
+.aboutme .description-of-me p{
+    margin-bottom: .8rem;
+}
+.aboutme a.btn{
+    margin-right: 1rem;
+}
