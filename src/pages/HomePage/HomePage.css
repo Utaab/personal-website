@@ -33,16 +33,17 @@
   padding: 25px;
   position: relative;
   border-radius: 300px;
-  width: 70%;
+  width: 80%;
   background:var(--color-white);
 }
 .inner-img-block{
   background: #e6dace;
   display: flex;
   align-items: flex-end;
-  height: 550px;
+  /* height: 550px; */
   border-radius: 300px;
   overflow: hidden;
+  padding-top: 6rem;
 }
 .bubble-img {
   position: absolute;
@@ -62,19 +63,16 @@
 .biography ,
 .skills,
 .education{
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 .biography {
   align-items: stretch;
 }
-.biography .ContactInfo .DescriptionInfo.large{
-  font-size: var(--font-size-Xlarge);
-}
+
 .biography .right-side,
 .biography .left-side{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 .biography_section{
   padding-top: 0;
@@ -82,8 +80,17 @@
 .timeline_year{
   color: var(--color-gray);
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-
+.timeline_year .squer {
+  width: 20px;
+  height: 20px;
+  background: var(--color-primary);
+  border-radius: 3px;
+  margin-right: .5rem;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -91,4 +98,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (max-width:575.98px){
+  .bubble-img {
+    display: none;
+  }
+}
+@media screen and (min-width:576px){
+  .img-block{
+    width: 70%;
+  }
+
+}
+@media screen and (min-width:991px){
+  .biography .right-side,
+  .biography .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .biography, .skills, .education{
+    margin-top: 7rem;
+  }
+  .biography .ContactInfo .DescriptionInfo.large{
+    font-size: var(--font-size-Xlarge);
+  }
+}
+@media screen and (max-width:991.98px){
+  .biography .left-side,
+  .biography .right-side{
+    order:2;
+  }
+  .biography .center-side{
+    order:1;
+
+  }
+
 }

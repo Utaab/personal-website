@@ -29,7 +29,13 @@ const SliderSlick = () => {
                     slidesToScroll: 4,
                   }
                 },
-                
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                  }
+                },
                 {
                   breakpoint: 600,
                   settings: {

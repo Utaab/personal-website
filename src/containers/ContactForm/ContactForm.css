@@ -6,7 +6,7 @@ form .formGroup{
 }
 form .formGroup label{
     font-family: var(--font-family-bold);
-    font-size: var(--font-size-mediume);
+    font-size: var(--font-size-medium);
     margin-bottom: .5rem;
 }
 form .formGroup input,

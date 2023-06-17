@@ -37,8 +37,8 @@ const ContactForm = () =>{
     });
     return(
         <form onSubmit={formik.handleSubmit}>
-            <div className="d-flex justify-content-between">
-                <div className="formGroup col-6">
+            <div className="d-md-flex justify-content-between">
+                <div className="formGroup col-md-6">
                     <label htmlFor="firstName">First Name:</label>
                     <input
                         id="firstName"
@@ -50,7 +50,7 @@ const ContactForm = () =>{
                     />
                     {formik.touched.firstName && formik.errors.firstName ? (<span className="error">{formik.errors.firstName}</span>) : null}
                 </div>
-                <div className="formGroup col-6">
+                <div className="formGroup col-md-6">
                     <label htmlFor="lastName">last Name:</label>
                     <input
                         id="lastName"

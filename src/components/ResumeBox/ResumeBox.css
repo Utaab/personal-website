@@ -1,18 +1,18 @@
 .resume_content{
-    width: 70%;
+    width: calc(100% - 30px);
     margin: 0 auto;
 }
 .ResumeBox .col-lg-4{
-    border-right: 1px solid var(--color-light-gray);
-    padding-right: 5rem;
+    border-bottom: 1px solid var(--color-light-gray);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 .ResumeBox .col-lg-8{
-    padding-left: 3rem;
 }
 .ResumeBox .during_time{
     font-weight: var(--font-weight-600);
     color: var(--color-primary);
-    font-size: var(--font-size-mediume);
+    font-size: var(--font-size-medium);
     margin-bottom: 1rem;
 }
 .ResumeBox .position{
@@ -25,4 +25,35 @@
 }
 .ResumeBox .disceription_job{
 
+}
+@media screen and (min-width:992px){
+    .ResumeBox .col-lg-4{
+        border-right: 1px solid var(--color-light-gray);
+        padding-right: 2rem;
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .ResumeBox .col-lg-8{
+        padding-left: 2rem;
+    }
+}
+@media screen and (min-width:1140px){
+    .ResumeBox .col-lg-4{
+        padding-right: 5rem;
+
+    }
+    .ResumeBox .col-lg-8{
+        padding-left: 3rem;
+    }
+}
+@media screen and (min-width:1280px){
+    .resume_content{
+        width: 80%;
+    }
+}
+@media screen and (min-width:1440px){
+    .resume_content{
+        width: 70%;
+    }
 }

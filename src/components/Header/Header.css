@@ -22,7 +22,7 @@
     display: inline-block;
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: var(--font-size-mediume);
+    font-size: var(--font-size-medium);
     position: relative;
 }
 .navbar-brand strong{
@@ -49,4 +49,10 @@
 
 .navbar-collapse{
     flex-grow: unset;
+}
+
+@media screen and (max-width:767.98px){
+    .navbar-brand span{
+        display: none;
+    }
 }
