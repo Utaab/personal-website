@@ -15,13 +15,13 @@ function Contact() {
                     <Heading as="h1" direction="text-center">Let's get Contact an estimate</Heading>
                     <div className='div-white-center mx-auto mt-5'>
                         <div className='row'>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-4'>
                                 <ContactInfo title="Address">Tehran, Iran</ContactInfo>
                                 <ContactInfo title="Email"><a href="mailto:atousakahnazi@yahoo.com">atousakahnazi@yahoo.com</a></ContactInfo>
                                 <ContactInfo title="Phone"><a href="tel:+989352148698">+98-935-214-8698</a></ContactInfo>
                                 <Social />
                             </div>
-                            <div className='col-lg-9'>
+                            <div className='col-lg-8'>
                                 <ContactForm/>
                             </div>
                         </div>

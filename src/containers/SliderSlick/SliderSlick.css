@@ -5,10 +5,10 @@
     height: 35px;
 }
 .slick-slider  .slick-prev{
-    left: -50px;
+    left: 0;
 }
 .slick-slider  .slick-next{
-    right: -50px;
+    right: 0;
 }
 .slick-slider  .slick-prev:hover, 
 .slick-slider  .slick-prev:focus, 
@@ -32,4 +32,14 @@
 }
 .slick-slider .slick-next:before{
     background: url("../../../public/images/next.svg") no-repeat 0 0;
+}
+@media screen and (min-width:576px){
+    .slick-slider  .slick-prev{
+        left: 0;
+        z-index: 10;
+    }
+    .slick-slider  .slick-next{
+        right: 0;
+        z-index: 10;
+    }
 }

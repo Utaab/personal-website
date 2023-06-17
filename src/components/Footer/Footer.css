@@ -36,3 +36,27 @@
 .footer .ContactInfo{
     margin: 1.5rem 0;
 }
+@media screen and (max-width:991.98px){
+    .footer .rightFooter,
+    .footer .leftFooter{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .rightFooter{
+        order: 1;
+    }
+    .footer .leftFooter{
+        order: 2;
+    }
+}
+@media screen and (max-width:767.98px){
+    .footer .rightFooter{
+        flex-direction: column;
+    }
+    .footer .rightFooter .ContactInfo{
+        margin: .5rem 0;
+    }
+    .footer .leftFooter{
+        margin-bottom: .5rem;
+    }
+}

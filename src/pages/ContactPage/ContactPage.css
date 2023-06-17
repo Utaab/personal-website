@@ -1,7 +1,5 @@
-
-.div-white-center {
-    background: white;
-    padding: 4rem;
-    border-radius: var(--border-radius-8);
-    box-shadow: -3px 5px 21px var(--color-shadow);
+@media screen and (max-width: 991.98px){
+    .ContactPage form{
+        padding-top: 4rem;
+    }
 }

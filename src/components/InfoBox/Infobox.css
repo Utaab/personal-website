@@ -3,11 +3,16 @@
 }
 .InfoBox .title_info{
     color: var(--color-black);
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-medium);
     font-weight: var(--font-weight-500);
     margin-bottom: .5rem;
 }
 .InfoBox .description-Info{
     font-size: var(--font-size-medium);
     color: var(--color-gray);
+}
+@media screen and (min-width:992px){
+    .InfoBox .title_info{
+        font-size: var(--font-size-large);
+    }
 }
