@@ -15,3 +15,11 @@
 .aboutme a.btn{
     margin-right: 1rem;
 }
+.skillsSection .col-lg-6{
+    border-bottom: 1px solid var(--color-light-gray);
+}
+.skillsSection .skillsBox{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+}

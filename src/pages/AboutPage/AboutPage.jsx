@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Avatar from "../../components/Avatar/Avatar";
 import { HashLink } from 'react-router-hash-link';
 import ResumeBox from "../../components/ResumeBox/ResumeBox";
-
+import Skills from "../../components/Skills/Skills";
 function About() {
     return<div className="aboutPage">
         <Layout>
@@ -39,7 +39,7 @@ function About() {
                                     </p>
                                 </div>
                                 <HashLink className="btn btn-primary" smooth to='#resumeSection'>Resume</HashLink>
-                                <HashLink className="btn btn-secondary" smooth to='#educationSection'>Education</HashLink>
+                                <HashLink className="btn btn-secondary" smooth to='#skillsSection'>Skills</HashLink>
                             </div>
                             <div className="col-lg-6">
                                 <div className="description-of-me">
@@ -82,13 +82,28 @@ function About() {
                     </div>
                 </Container>
             </div>
-            <div id='educationSection'>
+            <div id='skillsSection'>
                 <Container>
-                    <section className="educationSection">
+                    <section className="skillsSection">
                         <div className="row">
                             <div className="col-lg-6 m-auto">
-                                <Heading as="h2" direction="text-center">Education</Heading>
-                                
+                                <Heading as="h2" direction="text-center">Professional skillset</Heading>
+                                <div className="skillsBox">
+                                    <Skills>HTML5</Skills>
+                                    <Skills>CSS3</Skills>
+                                    <Skills>Sass</Skills>
+                                    <Skills>Bootstrap</Skills>
+                                    <Skills>Javascript</Skills>
+                                    <Skills>React</Skills>
+                                    <Skills>Tailwind CSS</Skills>
+                                    <Skills>GIT</Skills>
+                                    <Skills>Github</Skills>
+                                </div>
+                                <Heading as="h2" direction="text-center">Languages</Heading>
+                                <div className="skillsBox">
+                                    <Skills>Persian (native)</Skills>
+                                    <Skills>English</Skills>
+                                </div>
                             </div>
                         </div>
                     </section>

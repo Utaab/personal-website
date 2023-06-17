@@ -1,0 +1,20 @@
+.Skills{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.Skills .squer{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-3);
+    margin-right: 0.5rem;
+    top: -4px;
+    position: relative;
+}
+.Skills span {
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-body);
+}
