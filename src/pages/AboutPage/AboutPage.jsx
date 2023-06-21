@@ -20,22 +20,20 @@ function About() {
                             </div>
                             <div className="description-of-me">
                                 <p>
-                                    I am a Front-End develope.
+                                    I am a front-end developer who is also a UI/UX designer.
                                     <br/>
-                                    Coding is one of my main daily tasks. I get my energy from codes without errors.
+                                    coding is one of my main daily tasks. I derive my energy from writing error-free code.
                                 </p>
                                 <p>
-                                    I have been working in the field of website design and Front-End development for about 12 years.
+                                    
+Given my academic background and artistic inclination, I sought a career that would allow me to utilize both skill sets to the fullest. Hence, I started my career as a Front-End developer, occasionally delving into UI/UX design projects.
                                 </p>
                                 <p>
-                                    I'm new to React and I'm ready for the challenges involved.<br/>
-                                    At first, I took help from YouTube, Codepen, etc. to set up React as a self-study method, but due to overload information that provide in the Internet,
-                                    I decided to go to the Mapsa HR bootcamp and started it in February.<br/>
-                                    Since I have a full-time job, I was not able to spend much time on personal projects during the course. 
-                                    But as much as I could during the classes and after until now I did all my exercises slowly and steadily.
+                                I have approximately 12 years of work experience and Although I am new to React, I am eager to take on the challenges it presents. I used resources such as YouTube and Codepen to teach myself React. However, because of the overwhelming amount of information available online, I decided to attend a boot camp offered by Mapsa HR.
+                                <br/>
+                                I have a full-time job, and for this reason, I was not able to complete the exercises well during the course. However, now I am continuing my path slowly and steadily, and I will achieve what I want.
                                 </p><p>
-                                    The first project that I coded with React was this personal website for myself, in which I faced many challenges and I can say that all the incomprehensible points that I had learned from the Internet by self-learning were solved for me.
-                                </p>
+                                My first React project was my personal website, which presented many challenges. Through this project, I was able to resolve the unclear points that I had learned through self-teaching online.                                </p>
                             </div>
                             <HashLink className="btn btn-primary" smooth to='#resumeSection'>Resume</HashLink>
                             <HashLink className="btn btn-secondary" smooth to='#skillsSection'>Skills</HashLink>
@@ -60,20 +58,39 @@ function About() {
                 <Container>
                     <Heading as="h2" direction="text-center">Resume</Heading>
                     <div className="resume_content">
-                        <ResumeBox diuring="2021 - Present" position="Font-End Developer" company="MyARMAN">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        <ResumeBox diuring="2022 - Present" position="Font-End Developer" company="MyARMAN">
+                            Work at MyArman started with HTML, CSS, and JavaScript. In the past year, my accomplishments at MyArman have included implementing and redesigning the company's main website and two subsidiary websites using WordPress.
+                            <br/>
+                            Ultimately, with the changes made in the product team, we shifted towards React. As I mentioned earlier, I learned React, but unfortunately, the implementation of products using React has not yet started at the company.                        
                         </ResumeBox>
-                        <ResumeBox diuring="2018 - 2021" position="Font-End Developer / SEO Specialist" company="IRANHOST">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                        <ResumeBox diuring="2018 - 2022" position="Font-End Developer / SEO Specialist" company="IRANHOST">
+                        My accomplishments at this company included:<br/>
+                        <ul>
+                            <li>
+                            Experiencing specialized SEO courses at the WebSima Academy of Iran. and Becoming an SEO specialist.
+                            </li>
+                            <li>
+                            Additionally, I was involved in a part of the redesign process for Iran Host's website.
+                            </li>
+                            <li>
+                            I also designed and implemented approximately 12 promotional campaigns.
+                            </li>
+                        </ul>
                         </ResumeBox>
                         <ResumeBox diuring="2017 - 2018" position="Font-End Developer / UI Designer" company="PARSDATA">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                            After returning to Pars Data, I was responsible for designing and implementing clients' websites for one year.
                         </ResumeBox>
                         <ResumeBox diuring="2015 - 2018" position="Font-End Developer / UI/UX Designer" company="EHSANWEB">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                            During my time at Ehsan Web, in addition to designing and developing websites for clients based on their needs, I was also responsible for designing the UI/UX and implementing the company's main website, as well as the subsidiary website sharedata.com.
+                            <br/>
+                            As part of my responsibilities, I was in charge of the design and Front-End development department of the company.
                         </ResumeBox>
                         <ResumeBox diuring="2012 - 2015" position="Font-End Developer / UI Designer" company="PARSDATA">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veniam magnam a enim maxime fuga mollitia quas nesciunt consequuntur, porro provident, nemo cupiditate dolor. Commodi molestiae porro fugit omnis odit?
+                            When I first joined this company, I worked as a researcher for 9 months. During this time, my accomplishments included implementing news and image gallery modules version 2, as well as developing store modules and testing.
+                                <br/>
+                            I worked closely with other programmers and guided them in implementing requirements. After that, in addition to the responsibility of the research department, I was promoted to the position of web designer and graphic designer through my efforts and hard work.
+                                <br/>
+                            In this position, I was responsible for extracting customer needs for website design, and in addition to designing the UI, I also implemented it.
                         </ResumeBox>
                     </div>
                 </Container>

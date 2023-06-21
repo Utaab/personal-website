@@ -26,3 +26,17 @@
     grid-template-columns: auto auto;
     grid-column-gap: 30px;
 }
+.disceription_job ul li{
+    padding-left: 1rem;
+    position: relative;
+    margin-bottom: .5rem;
+}
+.disceription_job ul li:before{
+    width: 8px;
+    height: 2px;
+    background: var(--color-primary);
+    position: absolute;
+    content:"";
+    top: 14px;
+    left: 0;
+}
