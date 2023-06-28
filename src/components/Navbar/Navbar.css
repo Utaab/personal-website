@@ -1,0 +1,104 @@
+.Navbar,.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.Navbar {
+    justify-content: space-between;
+    font-size: var(--font-size-body);
+}
+
+
+.Navbar a {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    position: relative;
+}
+
+.Navbar .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.Navbar .brand strong{
+    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-medium);
+}
+.Navbar .brand span{
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-400);
+}
+.Navbar .brand .squer{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-3);
+    margin-right: 0.5rem;
+    top: -4px;
+    position: relative;
+}
+.Navbar .inner-navbar{
+    justify-content: end;
+}
+.Navbar .inner-navbar a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.Navbar .nav-btn{
+    border:0;
+    background-color: transparent;
+    width: 30px;
+}
+.Navbar .nav-btn svg{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:991.98px){
+
+    .Navbar .inner-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        height: 100vh;
+        background:url(../../../public/images/about-me-bubble.aa4c00ebbc1e72dc3150.png) var(--color-white);
+        background-position: -95px -110px;
+        background-repeat: no-repeat;
+        width: calc(100% + 24px);
+        left: -12px;
+        right: 0;
+        border: 0;
+        top: 0;
+        padding: 15px;
+        z-index: 9;
+        transform: translateY(0);
+        transition: all 1s ease-in-out;
+        box-shadow: 0px 0px 10px var(--color-body);
+    }
+    .Navbar .inner-navbar a{
+        margin-top: 1.5rem;
+    }
+    .Navbar .inner-navbar:not(.show_nav) {
+        transform: translateY(-115%);
+        transition: all 1s ease-in-out;
+    }
+    .Navbar .inner-navbar .nav-btn.close_menu{
+        position: fixed;
+        right: 6%;
+        top: 24px;
+    }
+}
+@media screen and (min-width:992px){
+    .Navbar .nav-btn{
+        display: none;
+    }
+}
+@media screen and (max-width:767.98px){
+    .Navbar .brand span{
+        display: none;
+    }
+}
